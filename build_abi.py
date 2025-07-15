@@ -21,7 +21,7 @@ def main():
                 with open(os.path.join(root, file), 'r') as f:
                     db["abis"].append(json.load(f))
     
-    os.makedirs(os.path.dirname(args.output))
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
     with open(args.output, 'w') as f:
         json.dump(db, f)
 
