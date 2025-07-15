@@ -1,0 +1,4 @@
+__pycache__
+.DS_Store
+.etherscan_apikey
+build
