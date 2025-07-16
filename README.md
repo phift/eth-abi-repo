@@ -32,3 +32,7 @@ To build the final ABI database just run
 `python build_abi.py`
 
 this does not require any API key since it only reads the files in the `repo` directory. You will find the output in `build/abi.json`
+
+## Downloading the JSON
+
+You can always download the latest build [by clicking here](https://github.com/keycard-tech/eth-abi-repo/releases/latest/download/abi.json) or from the Release page.
