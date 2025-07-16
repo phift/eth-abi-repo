@@ -18,3 +18,17 @@ adding a ABI to this repository is done by adding a line to this file and runnin
 The script `build_abi.py` takes all JSON from the `repo` and generates a single file with all of them.
 
 Feel free to use this repository however you like and to propose additions to the list. However since the purpose of this repository is to create an ABI database for [Keycard Shell](https://github.com/keycard-tech/keycard-shell) we will want to keep this list relatively short to fit the device memory.
+
+## Usage
+
+If you add entries to `abi_list.csv`, you will need to run
+
+`python fetch_api.py`
+
+but you will fist need to create an Etherscan API key and write it, in `.etherscan_apikey` without leading or trailing blanks or newlines.
+
+To build the final ABI database just run
+
+`python build_abi.py`
+
+this does not require any API key since it only reads the files in the `repo` directory. You will find the output in `build/abi.json`
