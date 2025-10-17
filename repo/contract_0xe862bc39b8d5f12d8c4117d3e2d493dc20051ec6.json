@@ -1,0 +1,118 @@
+[
+  {
+    "inputs": [
+      {
+        "name": "gauge",
+        "type": "address"
+      },
+      {
+        "name": "assets",
+        "type": "uint256"
+      },
+      {
+        "name": "debt",
+        "type": "uint256"
+      },
+      {
+        "name": "min_shares",
+        "type": "uint256"
+      }
+    ],
+    "name": "deposit_and_stake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "gauge",
+        "type": "address"
+      },
+      {
+        "name": "assets",
+        "type": "uint256"
+      },
+      {
+        "name": "debt",
+        "type": "uint256"
+      },
+      {
+        "name": "min_shares",
+        "type": "uint256"
+      },
+      {
+        "name": "receiver",
+        "type": "address"
+      }
+    ],
+    "name": "deposit_and_stake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "gauge",
+        "type": "address"
+      },
+      {
+        "name": "shares",
+        "type": "uint256"
+      },
+      {
+        "name": "min_assets",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdraw_and_unstake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "gauge",
+        "type": "address"
+      },
+      {
+        "name": "shares",
+        "type": "uint256"
+      },
+      {
+        "name": "min_assets",
+        "type": "uint256"
+      },
+      {
+        "name": "receiver",
+        "type": "address"
+      }
+    ],
+    "name": "withdraw_and_unstake",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
